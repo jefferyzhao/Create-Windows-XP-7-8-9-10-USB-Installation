@@ -7,7 +7,8 @@ Start:
 1.Open terminal
 2.Enter: diskutil list
 3.Find your disk name like disk2 (/dev/disk2(external, physical))
-4.Enter: diskutil eraseDisk MS-DOS "WINDOWS10" MBR disk# (change # to your USB drive # like disk2)
-5.Enter: cp -rp /Volumes/CCCOMA_X64FRE_EN-US_DV9/* /Volumes/WINDOWS10/ (Change the file ISO name your downloaded, mine is CCCOMA_X64FRE_EN-US_DV9)
-6.Wait and terminal will shows a row start with "~"
-7.Finish
+4.Enter: diskutil eraseDisk ExFat "WINDOWS10" MBR disk# (change # to your USB drive # like disk2)
+5.Double click open Windows10.ISO
+6.Enter: cp -rp /Volumes/CCCOMA_X64FRE_EN-US_DV9/* /Volumes/WINDOWS10/ (Change the file ISO name your downloaded, mine is CCCOMA_X64FRE_EN-US_DV9)
+7.Wait and terminal will shows a row start with "~"
+8.Finish
